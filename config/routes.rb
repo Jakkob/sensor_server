@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
-  get '/index' => 'lumens#index'
+  get 'index' => 'lumens#index'
 
   post 'create' => 'lumens#create'
+
+  get 'event_stream' => 'lumens#event_stream'
+
+  get 'stream' => 'lumens#stream'
 
   root 'lumens#index'
   # The priority is based upon order of creation: first created -> highest priority.

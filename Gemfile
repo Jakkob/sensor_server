@@ -15,7 +15,11 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'chartkick'
-gem'groupdate'
+gem 'groupdate'
+
+gem 'puma'
+
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -2,4 +2,4 @@
 
 <h1>All your readings:</h1>
 
-<%= line_chart Lumen.group_by_minute(:created_at).maximum(:data) %>
+<%= line_chart Lumen.group_by_hour(:created_at).maximum(:data) %>
